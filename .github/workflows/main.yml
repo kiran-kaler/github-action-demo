@@ -1,8 +1,8 @@
-name: hello-world
+name: self-hosted runner
 on: push
 jobs:
   my-job:
     runs-on: win11-laptop ubuntu-latest
     steps:
       - name: my-step
-        run: echo "Hello World!"
+        run: echo "self-hosted runner!"
